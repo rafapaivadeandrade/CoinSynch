@@ -28,4 +28,4 @@ EXPOSE 3000
 USER node
 
 # Start the app
-CMD ["npm", "start", "dev"]
+CMD ["npm", "dev"]
