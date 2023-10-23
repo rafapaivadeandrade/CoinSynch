@@ -1,8 +1,8 @@
-version: "3.9"
+version: '3.9'
 services:
   coinsynch:
     build:
-      context: ../coinsynch
+      context: .
       dockerfile: Dockerfile.dev
     restart: unless-stopped
     container_name: coinsynch
@@ -11,7 +11,7 @@ services:
       - 3000:3000
     volumes:
       - .:/home/node/coinsynch
-      - .:/home/node/coinsynch/node_modules
+      - coinsynch-node_modules:/home/node/coinsynch/node_modules
     env_file: .env
     environment:
       NODE_ENV: development
@@ -20,4 +20,3 @@ services:
 volumes:
   coinsynch-node_modules:
     external: false
-

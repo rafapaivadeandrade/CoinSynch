@@ -1,7 +1,14 @@
 FROM node:16.17
 
 ARG NODE_ENV=development
+
 ENV NODE_ENV=${NODE_ENV}
+ENV HOME=/home/node/
+ENV PATH=/home/node/app/node_modules/.bin:${PATH}
+
+RUN mkdir -p /home/node/coinsynch/node_modules && chown -R node:node /home/node/coinsynch
+RUN chown -R node:node $(npm config get prefix)/lib/node_modules
+RUN chown -R node:node /usr/local/bin
 
 # Create the app directory
 WORKDIR /home/node/coinsynch
@@ -17,6 +24,8 @@ COPY . .
 
 # Expose the port that the app will listen on
 EXPOSE 3000
+
+USER node
 
 # Start the app
 CMD ["npm", "start", "dev"]
