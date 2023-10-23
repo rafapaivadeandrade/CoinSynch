@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import useAxios from '../src/hooks/useAxios';
 import { MockedData } from './mockedData';
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';

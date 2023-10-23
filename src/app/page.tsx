@@ -1,7 +1,7 @@
 import Home from './home/page';
 
 export const metadata = {
-  title: 'Page',
+  title: 'Home',
 };
 
 export default function Page() {
