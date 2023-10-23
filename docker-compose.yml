@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  coinsynch:
+    build:
+      context: ../coinsynch
+      dockerfile: Dockerfile.dev
+    restart: unless-stopped
+    container_name: coinsynch
+    command: npm run dev
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/home/node/coinsynch
+      - .:/home/node/coinsynch/node_modules
+    env_file: .env
+    environment:
+      NODE_ENV: development
+      CHOKIDAR_USEPOLLING: true
+    working_dir: /home/node/coinsynch
+volumes:
+  coinsynch-node_modules:
+    external: false
+
