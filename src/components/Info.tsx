@@ -90,7 +90,7 @@ function Info({ balance, exchangeRates }: any) {
             </div>
           </div>
           <img
-            src="/elephant.png"
+            src="/Elephant.png"
             className="w-fit h-[stretch] rounded-lg sm:h-[68px] sm:w-[stretch]"
             width="130.743"
             alt="elephant"

@@ -25,7 +25,7 @@ const Nav: React.FC<NavProps> = ({ setOpen }) => {
     >
       <img
         className="md:block sm:block lg:hidden"
-        src="/burguer.png"
+        src="/Burguer.png"
         alt="burguer"
         onClick={handleClick}
       />

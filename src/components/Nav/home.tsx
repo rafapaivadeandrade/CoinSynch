@@ -100,7 +100,7 @@ const Nav: React.FC<NavProps> = ({ setOpen }) => {
           </span>
           <img
             className="md:hidden sm:flex lg:hidden"
-            src="/burguer.png"
+            src="/Burguer.png"
             alt="burguer"
             onClick={handleClick}
           />
