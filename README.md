@@ -16,13 +16,15 @@ CoinSynch is a web application where it shows the exchange rates variancies for 
 </p>
 
 </div>
+
+
+<br/>
   
 
 ## 👁 Preview
 
 
 The web application is responsible for managing the coins exchange rates in the user wallet.<br/><br/><br/>
- 
 
 <br/>
 
