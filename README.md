@@ -10,8 +10,7 @@ CoinSynch 🪙
 <div  align="center">
 
 
-<p  align="center">
-
+<p>
 CoinSynch is a web application where it shows the exchange rates variancies for the user to administrate it to the wallet.
 
 </p>
@@ -58,7 +57,7 @@ The project was developed with the following technologies:
 
 - [Chart.js](https://www.chartjs.org/)
 
-- [Docker]([https://www.npmjs.com/package/axios](https://www.docker.com/))
+- [Docker](https://www.npmjs.com/package/axios](https://www.docker.com/))
 
 - [Eslint](https://eslint.org/)
 
@@ -82,7 +81,7 @@ The project was developed with the following technologies:
 
 - [Styled Components](https://styled-components.com/)
 
-- [Tailwindcss]([https://www.npmjs.com/package/zod](https://tailwindcss.com/))
+- [Tailwindcss](https://www.npmjs.com/package/zod](https://tailwindcss.com/))
 
 - [Yup](https://github.com/jquense/yup)
   
