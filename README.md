@@ -20,13 +20,10 @@ CoinSynch is a web application where it shows the exchange rates variancies for 
 
 <br/>
   
-
 ## 👁 Preview
 
 
 The web application is responsible for managing the coins exchange rates in the user wallet.<br/><br/><br/>
-
-<br/>
 
  
 </div>
@@ -39,6 +36,9 @@ The web application is responsible for managing the coins exchange rates in the 
 - [x] **Trade in Coins**: You are able to trade in the coins to your wallet;
 - [x] **Trade out Coins**: You are able to trade out the coins from your wallet;
 - [x] **Coin Chart**: You are able to see a graph of coin exchange rate variation daily;
+
+
+<br/>
 
 ## 🖥 Technologies
 
@@ -90,10 +90,15 @@ The project was developed with the following technologies:
   
 </details>
 
+
+<br/>
+
 ## ☁️ Deployed Website on Google Cloud Platform
 
 https://coinsynch-66r5zj3v7a-ue.a.run.app/
 
+
+<br/>
 
 ## 🚀 Getting started
 
