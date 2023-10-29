@@ -25,7 +25,13 @@ CoinSynch is a web application where it shows the exchange rates variancies for 
 
 The web application is responsible for managing the coins exchange rates in the user wallet.<br/><br/><br/>
 
- 
+![ezgif-2-9cfe4072a3](https://github.com/rafapaivadeandrade/CoinSynch/assets/51189721/35dba6f4-2edb-40f4-a6e5-4117060fac0d)
+![ezgif-2-1a475f36cf](https://github.com/rafapaivadeandrade/CoinSynch/assets/51189721/8c96ffec-2d7b-40ac-b5f7-366772ab9c0a)
+![ezgif-2-9f7551b69d](https://github.com/rafapaivadeandrade/CoinSynch/assets/51189721/29e5234b-286b-4ab5-ab72-562bcdbcebed)
+![ezgif-2-ba69a5e5c0](https://github.com/rafapaivadeandrade/CoinSynch/assets/51189721/3db261f7-1d06-49ba-98d2-312568736e03)
+![ezgif-2-ddb2e4a60b](https://github.com/rafapaivadeandrade/CoinSynch/assets/51189721/d6e3691e-39a9-4278-bf8d-2fc99bb95ec7)
+![ezgif-2-08c6856be1](https://github.com/rafapaivadeandrade/CoinSynch/assets/51189721/5602e18c-2fe2-46c2-a9dd-7d9ae89c0b97)
+
 </div>
 
   ## Features
